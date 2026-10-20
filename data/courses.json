@@ -1,0 +1,122 @@
+[
+  {
+    "createdAt": "2026-10-20",
+    "title": "Lập trình Android cơ bản",
+    "description": "Làm quen Android Studio, Java, Activity và giao diện. Xây dựng ứng dụng đầu tiên và kết nối REST API.",
+    "categoryId": "1",
+    "instructor": "Nguyễn Minh Anh",
+    "price": 500000,
+    "duration": 30,
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "1"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "Flutter từ cơ bản đến thực hành",
+    "description": "Học Dart, widget, điều hướng và quản lý trạng thái. Thực hành ứng dụng đa nền tảng với API.",
+    "categoryId": "1",
+    "instructor": "Trần Hoàng Nam",
+    "price": 650000,
+    "duration": 36,
+    "thumbnail": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "2"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "React Native thực chiến",
+    "description": "Phát triển ứng dụng di động với JavaScript, React Hooks và React Native. Tích hợp dữ liệu từ dịch vụ REST.",
+    "categoryId": "1",
+    "instructor": "Lê Thu Hà",
+    "price": 750000,
+    "duration": 40,
+    "thumbnail": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "3"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "Kotlin cho lập trình viên Android",
+    "description": "Cú pháp Kotlin, null safety, collection và lập trình hướng đối tượng. Áp dụng kiến thức vào dự án Android.",
+    "categoryId": "1",
+    "instructor": "Phạm Đức Huy",
+    "price": 450000,
+    "duration": 24,
+    "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "4"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "Thiết kế Web với HTML và CSS",
+    "description": "Tạo trang web có cấu trúc rõ ràng, bố cục Flexbox và Grid. Thiết kế responsive cho điện thoại và máy tính.",
+    "categoryId": "2",
+    "instructor": "Vũ Ngọc Linh",
+    "price": 300000,
+    "duration": 20,
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "5"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "JavaScript hiện đại",
+    "description": "Nắm vững JavaScript, DOM, Promise và async/await. Xây dựng giao diện tương tác và gọi API.",
+    "categoryId": "2",
+    "instructor": "Đặng Quốc Bảo",
+    "price": 550000,
+    "duration": 32,
+    "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "6"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "React và xây dựng giao diện Web",
+    "description": "Component, props, state và React Hooks. Tổ chức dự án và xây dựng ứng dụng quản lý dữ liệu.",
+    "categoryId": "2",
+    "instructor": "Bùi Khánh Vy",
+    "price": 700000,
+    "duration": 38,
+    "thumbnail": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "7"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "Python cho trí tuệ nhân tạo",
+    "description": "Học Python, NumPy và xử lý dữ liệu. Chuẩn bị nền tảng lập trình cho các bài toán trí tuệ nhân tạo.",
+    "categoryId": "3",
+    "instructor": "Đỗ Gia Phúc",
+    "price": 400000,
+    "duration": 28,
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "8"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "Machine Learning nhập môn",
+    "description": "Tìm hiểu hồi quy, phân loại, chia tập dữ liệu và đánh giá mô hình. Thực hành quy trình học máy cơ bản.",
+    "categoryId": "3",
+    "instructor": "Nguyễn Thảo My",
+    "price": 850000,
+    "duration": 42,
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "9"
+  },
+  {
+    "createdAt": "2026-10-20",
+    "title": "Deep Learning và mạng nơ-ron",
+    "description": "Khám phá mạng nơ-ron, CNN và huấn luyện mô hình. Thực hành nhận diện hình ảnh với các bộ dữ liệu mẫu.",
+    "categoryId": "3",
+    "instructor": "Trần Nhật Minh",
+    "price": 950000,
+    "duration": 48,
+    "thumbnail": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=80",
+    "trailerUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "id": "10"
+  }
+]

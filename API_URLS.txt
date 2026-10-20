@@ -1,0 +1,18 @@
+CourseHub — Quản lý khóa học
+
+Project MockAPI:
+https://mockapi.io/projects/6ad6ffc2f71f154ac4879556
+
+Base URL:
+https://6ad6ffc2f71f154ac4879555.mockapi.io
+
+GET categories — 3 danh mục:
+https://6ad6ffc2f71f154ac4879555.mockapi.io/categories
+
+GET courses — 10 khóa học:
+https://6ad6ffc2f71f154ac4879555.mockapi.io/courses
+
+GET chi tiết mẫu:
+https://6ad6ffc2f71f154ac4879555.mockapi.io/courses/1
+
+Đã kiểm thử CRUD với API thật và dọn dữ liệu tạm. categoryId liên kết courses với categories.

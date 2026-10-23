@@ -22,7 +22,7 @@ public class ApiIntegrationTest {
             JSONObject payload = new JSONObject().put("title", unique).put("description", "Test course")
                 .put("categoryId", "missing-category-test").put("instructor", "Test instructor").put("price", 0).put("duration", 1)
                 .put("thumbnail", "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300")
-                .put("trailerUrl", "https://media.w3.org/2010/05/sintel/trailer.mp4").put("createdAt", "2026-10-20");
+                .put("trailerUrl", "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4").put("createdAt", "2026-10-20");
             try { api.saveCourse(null, payload); fail("Missing category must be rejected"); }
             catch (java.io.IOException expected) { assertTrue(expected.getMessage().contains("không tồn tại")); }
             payload.put("categoryId", categoryId);

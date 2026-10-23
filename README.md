@@ -1,6 +1,6 @@
 # CourseHub — Quản lý khóa học
 
-Ứng dụng Android viết bằng Java cho bài tập **Mobile App – Quản lý khóa học | MockAPI**. Có mã nguồn, dữ liệu mẫu, APK debug và hướng dẫn chạy. Không có video thuyết trình theo yêu cầu của người dùng; chức năng phát trailer trong app vẫn được triển khai.
+Ứng dụng Android viết bằng Java cho bài tập **Mobile App – Quản lý khóa học | MockAPI**. Có mã nguồn, dữ liệu mẫu, APK debug và hướng dẫn chạy. Video thuyết minh được cung cấp riêng cùng bản bàn giao; chức năng phát trailer nằm trong ứng dụng.
 
 **Trạng thái bàn giao:** MockAPI đã có hai resource, 3 danh mục và 10 khóa học. Ứng dụng đã qua kiểm thử CRUD và giao diện với API thật. Mở app là có dữ liệu; không cần tạo lại resource hoặc nạp mẫu lần nữa.
 
@@ -68,7 +68,7 @@ Script dùng thư viện chuẩn Python, không cần cài thêm package. Script
 
 Dữ liệu mẫu nằm trong `app/src/main/assets/sample-data.json`, chỉ dùng để **POST dữ liệu khởi tạo lên API** khi có yêu cầu. Màn hình danh sách luôn GET dữ liệu từ backend, không dùng file này làm danh sách thay thế khi mất mạng.
 
-Ảnh bìa dùng các URL HTTPS từ Unsplash. Trailer mẫu dùng chung MP4 **Sintel** từ `https://media.w3.org/2010/05/sintel/trailer.mp4` để kiểm tra chức năng phát video; đây là video minh họa, không phải trailer riêng của từng khóa học. Có thể thay URL ở form sửa khóa học. Sintel là dự án phim của Blender Foundation, xem thông tin tại https://durian.blender.org/.
+Ảnh bìa dùng các URL HTTPS từ Unsplash. Trailer mẫu dùng chung MP4 **Flower (CC0)** từ `https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4` để kiểm tra chức năng phát video; đây là video minh họa, không phải trailer riêng của từng khóa học. Có thể thay URL ở form sửa khóa học. Video Flower là tài nguyên minh họa CC0 của MDN Web Docs; có thể thay bằng trailer MP4 phù hợp của từng khóa học.
 
 ## Các màn hình và chức năng
 

@@ -100,9 +100,11 @@ public class UiSmokeTest {
     }
     @Test public void directTrailerActuallyPlaysInApp() throws Exception {
         Intent intent = new Intent(context, TrailerActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            .putExtra("url", "https://media.w3.org/2010/05/sintel/trailer.mp4").putExtra("title", "Trailer mẫu");
+            .putExtra("url", "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4").putExtra("title", "Trailer mẫu");
         activity = inst.startActivitySync(intent);
-        long deadline = SystemClock.uptimeMillis() + 45000; boolean playing = false;
+        // Allow a cold remote MP4 connection on a software-rendered emulator.
+        // The assertion still requires actual playback past 3.5 seconds.
+        long deadline = SystemClock.uptimeMillis() + 90000; boolean playing = false;
         while (SystemClock.uptimeMillis() < deadline) {
             AtomicReference<Boolean> result = new AtomicReference<>(false);
             inst.runOnMainSync(() -> result.set(isPlaying(activity.getWindow().getDecorView())));
